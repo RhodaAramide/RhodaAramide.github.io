@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialised;
+    -moz-font-smoothing: antialised;
+    -ms-font-smoothing: antialised;
+    -o-font-smoothing: antialised;
+    display: block;
+}
+.banner_home img {
+    display: inline;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+} 
+.banner {
+    background: #000;
+    color: #fff;
+    margin: 0 0 2em;
+    padding: 2% 1em;
+    position: relative;
+    outline: none;
+}
+.banner_home {
+    text-align: center;
+    padding: 7% 0 5%;
+}
