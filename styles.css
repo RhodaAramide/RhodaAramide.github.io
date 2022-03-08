@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font: 100%/1.4 'Times New Roman', Times, serif;
     font-size: 100%;
     margin: 0;
     padding: 0;
@@ -9,6 +9,9 @@ body {
     -o-font-smoothing: antialised;
     display: block;
     background-color: ;
+}
+div {
+    display: block;
 }
 .banner_home img {
     display: inline;
@@ -55,6 +58,11 @@ footer {
     padding-top: 1em;
     font-size: 0.8em;
     font-style: italic;    
+}
+main,
+footer {
+    box-sizing: border-box;
+    padding: 0 1em;
 }
 p,
 ul {
@@ -191,4 +199,33 @@ summary {
     position: absolute;
     top: 0;
     right: 0;
+}
+.fig_source a {
+    color: white;
+    color: inherit;
+    text-decoration: none;
+}
+a:hover,
+a:focus, 
+a:active {
+    color: red;
+    border-bottom-style: solid;
+}
+video {
+    object-fit: contain;
+}
+.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+cite {
+    font-style: normal;
+}
+@media only screen and (min-width: 40.5em) and (max-width: 59.99em) {
+    .gallery {
+        overflow: hidden;
+    }
 }
