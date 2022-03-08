@@ -24,6 +24,23 @@ body {
     position: relative;
     outline: none;
 }
+.banner h1 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.15em;
+}
+h1,
+h2,
+h3 {
+    font-family: Satisfy, cursive;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+}
 .banner_home {
     text-align: center;
     padding: 7% 0 5%;
@@ -39,7 +56,13 @@ ul {
     margin-top: 0;
     margin-bottom: 1.25em;
 }
-#menu a {
+#nav-menu {
+    position: absolute;
+    top: 3.75em;
+    right: 0;
+    white-space: nowrap;
+}
+#nav-menu a {
     border-radius: 5px 5px 0 0;
     color: #fff;
     line-height: 2em;
@@ -72,4 +95,71 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+nav {
+    outline: none;
+}
+header,
+main,
+nav {
+    margin-bottom: 1em;
+}
+header,
+main,
+nav,
+footer {
+    margin: 0 auto;
+    max-width: 960px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+picture, img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+header {
+    display: block;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+.homePage #menu {
+    position: static;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0;
+    white-space: normal;
+}
+.fig_caption {
+    font-size: 0.875em;
+    font-style: italic;
+    margin: 1em 0 0;
 }
