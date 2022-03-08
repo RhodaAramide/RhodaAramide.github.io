@@ -68,6 +68,10 @@ ul {
     right: 0;
     white-space: nowrap;
 }
+#nav-menu mark a {
+    background: #fff;
+    color:#000;
+}
 #nav-menu a {
     border-radius: 5px 5px 0 0;
     color: #fff;
@@ -94,6 +98,10 @@ nav a {
     padding: 0 1em;
     outline: none;
     transition: background .4s, color 0s .1s;
+}
+nav mark a {
+    background: #000;
+    color: #fff;
 }
 a {
     color: green;
@@ -173,4 +181,14 @@ summary {
     font-size: 0.875em;
     font-style: italic;
     margin: 1em 0 0;
+}
+.fig_source {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.7857em;
+    padding: 0.5em 0.75em;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
