@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
     -ms-font-smoothing: antialised;
     -o-font-smoothing: antialised;
     display: block;
-    background-color: aqua;
+    background-color: ;
 }
 .banner_home img {
     display: inline;
