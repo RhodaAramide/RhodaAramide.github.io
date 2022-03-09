@@ -86,6 +86,10 @@ ul {
     line-height: 2em;
     padding: 0 1em;
 }
+#nav-menu ul {
+    background: transparent;
+    border: 0;
+}
 #nav-menu li,
 #nav-menu a {
     border: 0;
