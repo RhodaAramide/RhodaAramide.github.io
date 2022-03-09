@@ -8,7 +8,6 @@ body {
     -ms-font-smoothing: antialised;
     -o-font-smoothing: antialised;
     display: block;
-    background-color: ;
 }
 div {
     display: block;
@@ -82,7 +81,7 @@ ul {
 }
 #nav-menu a {
     border-radius: 5px 5px 0 0;
-    color: #fff;
+    color: #000;
     line-height: 2em;
     padding: 0 1em;
 }
@@ -123,7 +122,6 @@ a {
 }
 nav ul {
     background: #fff;
-    background-color: ;
     color: #000;
     border-top: 1px solid;
     list-style: none;
