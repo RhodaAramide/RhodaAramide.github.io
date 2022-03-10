@@ -3,11 +3,18 @@ body {
     font-size: 100%;
     margin: 0;
     padding: 0;
-    -webkit-font-smoothing: antialised;
-    -moz-font-smoothing: antialised;
-    -ms-font-smoothing: antialised;
-    -o-font-smoothing: antialised;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialaised;
     display: block;
+}
+.hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
 }
 div {
     display: block;
@@ -18,6 +25,10 @@ div {
     max-width: 400px;
     height: auto;
 } 
+.banner_home  h1 {
+    font-size: 8vw;
+    padding-top: 2%;
+}
 .banner {
     background-color: #000;
     color: #fff;
@@ -55,7 +66,7 @@ h3 {
 footer {
     border-top: 1px solid #ccc;
     padding-top: 1em;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-style: italic;    
 }
 main,
@@ -120,6 +131,18 @@ a {
     border-bottom: 1px dotted;
     transition: background .5s, color .5s;
 }
+#nav-jump {
+    border: 1px solid;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font: bold .875em Helvetica, Arial, sans-serif;
+    padding: .5em;
+    position: absolute;
+    top: .75em;
+    right: 1em;
+    z-index: 1000;
+}
 nav ul {
     background: #fff;
     color: #000;
@@ -128,6 +151,14 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+nav ul a:hover,
+nav ul a:focus,
+nav mark a:hover,
+nav mark a:focus {
+    background: #ccc;
+    color: #000;
+    transition: background .4s;
+}
 nav {
     outline: none;
 }
@@ -135,6 +166,9 @@ header,
 main,
 nav {
     margin-bottom: 1em;
+}
+hr {
+    display: none;
 }
 header,
 main,
@@ -214,9 +248,15 @@ a:active {
     border-bottom-style: solid;
 }
 video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    width: 100%;
+    height: 0;
     object-fit: contain;
 }
-.video video {
+.video video,
+.video iframe {
     position: absolute;
     top: 0;
     left: 0;
