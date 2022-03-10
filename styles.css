@@ -82,36 +82,7 @@ ul {
     margin-top: 0;
     margin-bottom: 1.25em;
 }
-@media only screen and (min-width: 40.5em) {
-#nav-menu {
-    position: absolute;
-    top: 3.75em;
-    right: 0;
-    white-space: nowrap;
-}
-#nav-menu mark a {
-    background: #fff;
-    color:#000;
-}
-#nav-menu a {
-    border-radius: 5px 5px 0 0;
-    color: #000;
-    line-height: 2em;
-    padding: 0 1em;
-}
-#nav-menu ul {
-    background: transparent;
-    border: 0;
-}
-#nav-menu li,
-#nav-menu a {
-    border: 0;
-    display: inline-block;
-}
-.banner {
-    padding: 1em;
-}
-}
+
 nav a {
     border-bottom: 1px solid #000;
     color: #000;
