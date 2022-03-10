@@ -51,6 +51,9 @@ h1 {
     font-size: 3em;
     margin-bottom: 0.15em;
 }
+section h1 {
+    font-size: 2em;
+}
 h1,
 h2,
 h3 {
@@ -145,6 +148,7 @@ a {
 }
 nav ul {
     background: #fff;
+    background-color: rgba(255, 255, 255, .95);
     color: #000;
     border-top: 1px solid;
     list-style: none;
