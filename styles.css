@@ -189,13 +189,7 @@ section,
 summary {
     display: block;
 }
-.homePage #nav-menu {
-    position: static;
-    text-align: center;
-    margin: 1em auto;
-    padding: 0;
-    white-space: normal;
-}
+
 .fig_caption {
     font-size: 0.875em;
     font-style: italic;
