@@ -244,3 +244,45 @@ cite {
     #getActiveMQ-watcher { 
         font-family: "small"; } 
     }
+
+@media only screen and (min-width: 40.5em) {
+#nav-jump {
+    right: auto;
+    left: -999em;
+    }
+#menu {
+    position: absolute;
+    top: 3.75em;
+    right: 0;
+    white-space: nowrap;
+}
+.home #nav-menu h1.hidden,
+.home #nav-menu ul .hidden {
+    position: static !important;
+    width: 100%;
+    height: auto;
+    clip: inherit;
+    overflow: visible;
+}
+.home #menu {
+    position: static;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0;
+    white-space: normal;
+}
+.home #menu mark a {
+    background: #000;
+    color: #000;
+}
+#menu mark a {
+    background: #fff;
+    color: #000;
+}
+#menu a {
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    line-height: 2em;
+    padding: 0 1em;
+}
+}
