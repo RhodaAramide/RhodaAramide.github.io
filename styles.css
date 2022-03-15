@@ -235,11 +235,6 @@ video {
 cite {
     font-style: normal;
 }
-@media only screen and (min-width: 40.5em) and (max-width: 59.99em) {
-    .gallery {
-        overflow: hidden;
-    }
-}
 
 #getActiveMQ-watcher { 
     font-family: "default"; 
