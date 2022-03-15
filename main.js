@@ -97,7 +97,7 @@ window.watchResize (function() {
         $menu_closer.addEventListener('touchdown', toggleDrawerNav, false);
 
         page_classes.add(drawer_enabled_class);
-    } else if (current_MQ =! 'small' && page_classes.contains(drawer_enabled_class)) {
+    } else if (current_MQ != 'small' && page_classes.contains(drawer_enabled_class)) {
         $menu_opener.removeEventListener('click', toggleDrawerNav, false);
         $menu_opener.removeEventListener('touchdown', toggleDrawerNav, false);
         $menu_closer.removeEventListener('click', toggleDrawerNav, false);
@@ -105,4 +105,4 @@ window.watchResize (function() {
 
         page_classes.remove(drawer_enabled_class);
     }
-});
+}(this));
